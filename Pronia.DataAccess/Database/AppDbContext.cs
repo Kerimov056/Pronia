@@ -1,6 +1,11 @@
-﻿namespace Pronia.DataAccess.Database;
+﻿using Microsoft.EntityFrameworkCore;
+using Pronia.Core.Entities;
 
-public class AppDbContext
+namespace Pronia.DataAccess.Database;
+
+public class AppDbContext:DbContext
 {
+	public AppDbContext(DbContextOptions<AppDbContext> options):base(options){}
 
+	public DbSet<Slidaer> slidaers { get; set; }
 }

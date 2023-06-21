@@ -10,3 +10,6 @@ D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\obj\Debug\net6.0\Pronia.DataAcce
 D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\obj\Debug\net6.0\refint\Pronia.DataAccess.dll
 D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\obj\Debug\net6.0\Pronia.DataAccess.pdb
 D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\obj\Debug\net6.0\ref\Pronia.DataAccess.dll
+D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\bin\Debug\net6.0\Pronia.Core.dll
+D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\bin\Debug\net6.0\Pronia.Core.pdb
+D:\work2\Asp.net MVC\ProniaUI\Pronia.DataAccess\obj\Debug\net6.0\Pronia.DataAccess.csproj.CopyComplete
