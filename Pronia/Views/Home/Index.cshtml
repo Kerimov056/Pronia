@@ -64,12 +64,12 @@
                     <div class="col-lg-4 col-md-6 @(payment.Id==Model.Payments.ElementAt(0).Id ? "" : "mt-4 mt-md-0")">
                     <div class="shipping-item">
                         <div class="shipping-img">
-                            <img src="~/assets/images/website-images//car.png"
-                                 alt="Shipping Icon" />
+                            <img src="@payment.ImagePath"
+                                 alt="@payment.ImageDesc" />
                         </div>
                         <div class="shipping-content">
-                            <h2 class="title">Free Shipping</h2>
-                            <p class="short-desc mb-0">Capped at $319 per order</p>
+                            <h2 class="title">@payment.Title</h2>
+                            <p class="short-desc mb-0">@payment.Description</p>
                         </div>
                     </div>
                 </div>
