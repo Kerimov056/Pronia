@@ -12,5 +12,6 @@ public class HomeVM
     public IEnumerable<Banner>Banners { get; set; }  
     public IEnumerable<NewProduct>NewProducts { get; set; }  
     public IEnumerable<Testimonial> Testimonial { get; set; }  
+    public IEnumerable<Sponsor> Sponsors { get; set; }  
 
 }
