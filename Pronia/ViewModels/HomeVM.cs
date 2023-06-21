@@ -10,5 +10,6 @@ public class HomeVM
     public IEnumerable<Payment> Payments { get; set; }  
     public IEnumerable<Product> Products { get; set; }  
     public IEnumerable<Banner>Banners { get; set; }  
+    public IEnumerable<NewProduct>NewProducts { get; set; }  
 
 }

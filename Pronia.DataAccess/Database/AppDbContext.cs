@@ -13,4 +13,5 @@ public class AppDbContext:DbContext
 	public DbSet<Payment> payments { get; set; }
 	public DbSet<Product> products { get; set; }
 	public DbSet<Banner> banners { get; set; }
+	public DbSet<NewProduct> newproducts { get; set; }
 }
