@@ -641,6 +641,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\dark.png"
     },
     {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assets\\images\\website-images\\newKer1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\newKer1.png"
+    },
+    {
       "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assets\\images\\website-images\\quotation.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\quotation.png"
     },

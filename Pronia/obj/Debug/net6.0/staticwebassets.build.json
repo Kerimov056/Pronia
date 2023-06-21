@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/q8uSdu0r1C4pWT1PVcQGQ8Lj5bf5My3XcI8uI3cYBo=",
+  "Hash": "dSrm+b0Z/95//xgbrVXBzx0akzDdw6+cLMZEhv84oJE=",
   "Source": "Pronia",
   "BasePath": "_content/Pronia",
   "Mode": "Default",
@@ -2735,6 +2735,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\dark.png"
+    },
+    {
+      "Identity": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assets\\images\\website-images\\newKer1.png",
+      "SourceId": "Pronia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\",
+      "BasePath": "_content/Pronia",
+      "RelativePath": "assets/images/website-images/newKer1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\newKer1.png"
     },
     {
       "Identity": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assets\\images\\website-images\\quotation.png",

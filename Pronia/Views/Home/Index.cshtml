@@ -1453,60 +1453,26 @@
         <div class="container custom-space">
             <div class="swiper-container testimonial-slider with-bg">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide testimonial-item">
+                    @foreach (var testimonial in Model.Testimonial)
+                    {
+                        <div class="swiper-slide testimonial-item">
                         <div class="user-info mb-3">
                             <div class="user-shape-wrap">
                                 <div class="user-img">
-                                    <img src="~/assets/images/website-images//1--1rnu4p.png"
+                                    <img src="@testimonial.ImagePath"
                                          alt="User Image" />
                                 </div>
                             </div>
                             <div class="user-content text-charcoal">
-                                <h4 class="user-name mb-1">Phoenix Baker</h4>
-                                <span class="user-occupation">Client</span>
+                                <h4 class="user-name mb-1">@testimonial.Name</h4>
+                                <span class="user-occupation">@testimonial.UserPosition</span>
                             </div>
                         </div>
                         <p class="user-comment mb-6">
-                            Lorem ipsum dolor sit amet, conse adipisic elit, sed do
-                            eiusmod tempo incididunt ut labore et dolore. magna
+                          @testimonial.Description
                         </p>
                     </div>
-                    <div class="swiper-slide testimonial-item">
-                        <div class="user-info mb-3">
-                            <div class="user-shape-wrap">
-                                <div class="user-img">
-                                    <img src="~/assets/images/website-images//2.png"
-                                         alt="User Image" />
-                                </div>
-                            </div>
-                            <div class="user-content text-charcoal">
-                                <h4 class="user-name mb-1">Phoenix Baker</h4>
-                                <span class="user-occupation">Client</span>
-                            </div>
-                        </div>
-                        <p class="user-comment mb-6">
-                            Lorem ipsum dolor sit amet, conse adipisic elit, sed do
-                            eiusmod tempo incididunt ut labore et dolore. magna
-                        </p>
-                    </div>
-                    <div class="swiper-slide testimonial-item">
-                        <div class="user-info mb-3">
-                            <div class="user-shape-wrap">
-                                <div class="user-img">
-                                    <img src="~/assets/images/website-images//3.png"
-                                         alt="User Image" />
-                                </div>
-                            </div>
-                            <div class="user-content text-charcoal">
-                                <h4 class="user-name mb-1">Phoenix Baker</h4>
-                                <span class="user-occupation">Client</span>
-                            </div>
-                        </div>
-                        <p class="user-comment mb-6">
-                            Lorem ipsum dolor sit amet, conse adipisic elit, sed do
-                            eiusmod tempo incididunt ut labore et dolore. magna
-                        </p>
-                    </div>
+                    }
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination without-absolute"></div>
