@@ -7,5 +7,6 @@ public class HomeVM
 {
     public IEnumerable<Slidaer> Slidaers { get; set; }  
     public IEnumerable<Payment> Payments { get; set; }  
+    public IEnumerable<Product> Products { get; set; }  
 
 }
