@@ -1,0 +1,12 @@
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.deps.json
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.dll
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\bin\Debug\net6.0\Pronia.Core.pdb
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.csproj.AssemblyReference.cache
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.AssemblyInfoInputs.cache
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.AssemblyInfo.cs
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.csproj.CoreCompileInputs.cache
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.dll
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\refint\Pronia.Core.dll
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\Pronia.Core.pdb
+D:\work2\Asp.net MVC\ProniaUI\Pronia.Core\obj\Debug\net6.0\ref\Pronia.Core.dll
