@@ -12,5 +12,5 @@ public class AppDbContext:DbContext
 	public DbSet<Slidaer> slidaers { get; set; }
 	public DbSet<Payment> payments { get; set; }
 	public DbSet<Product> products { get; set; }
-	public DbSet<Banner> baners { get; set; }
+	public DbSet<Banner> banners { get; set; }
 }

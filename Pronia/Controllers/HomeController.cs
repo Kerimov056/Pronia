@@ -18,7 +18,8 @@ public class HomeController : Controller
         {
             Slidaers = await _context.slidaers.ToListAsync(),
             Payments = await _context.payments.ToListAsync(),
-            Products = await _context.products.ToListAsync() 
+            Products = await _context.products.ToListAsync(),
+            Banners = await _context.banners.ToListAsync() 
         };
         return View(homeVm);
     }
