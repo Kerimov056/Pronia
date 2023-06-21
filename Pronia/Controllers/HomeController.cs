@@ -16,7 +16,8 @@ public class HomeController : Controller
     {
         HomeVM homeVm = new()
         {
-            Slidaers = await _context.slidaers.ToListAsync()
+            Slidaers = await _context.slidaers.ToListAsync(),
+            Payments = await _context.payments.ToListAsync()
         };
         return View(homeVm);
     }
