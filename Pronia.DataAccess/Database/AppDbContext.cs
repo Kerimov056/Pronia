@@ -16,4 +16,5 @@ public class AppDbContext:DbContext
 	public DbSet<NewProduct> newproducts { get; set; }
 	public DbSet<Testimonial> testimonial { get; set; }
 	public DbSet<Sponsor> sponsors { get; set; }
+	public DbSet<Blog> blogs { get; set; }
 }

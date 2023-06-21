@@ -22,7 +22,8 @@ public class HomeController : Controller
             Banners = await _context.banners.ToListAsync() ,
             NewProducts = await _context.newproducts.ToListAsync(),
             Testimonial = await _context.testimonial.ToListAsync(),
-            Sponsors = await _context.sponsors.ToListAsync()
+            Sponsors = await _context.sponsors.ToListAsync(),
+            Blogs = await _context.blogs.ToListAsync()
         };
         return View(homeVm);
     }
