@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Pronia.Areas.Admin.ProductViewModel;
 using Pronia.Core.Entities;
 using Pronia.DataAccess.Database;
 
@@ -9,10 +11,12 @@ namespace Pronia.Areas.Admin.Controllers;
 public class AdminController : Controller
 {
     private readonly AppDbContext _context;
+    private readonly IMapper _mapper;
 
-    public AdminController(AppDbContext context)
+    public AdminController(AppDbContext context, IMapper mapper)
     {
-            _context= context;
+        _context = context;
+        _mapper = mapper;
     }
     public async Task<IActionResult> Index()
     {
@@ -26,10 +30,11 @@ public class AdminController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
 
-    public IActionResult Create(Product product)
+    public IActionResult Create(ProductView product_view)
     {
         if (ModelState.IsValid)
         {
+            var product = _mapper.Map<Product>(product_view);
             _context.products.Add(product);
             _context.SaveChanges(); 
             return RedirectToAction("Index");
