@@ -13,44 +13,44 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-4" style="color:red;font-size:20px">Delete Products</h4>
-                            <form method="post">
+                            <form method="post" asp-action="Delete">
                                 <input asp-for="Id" hidden/>
                                 <div class="row mb-4">
-                                    <label asp-for="MainImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Main Image</label>
+                                    <label asp-for="MainImage" class="col-sm-3 col-form-label">Main Image</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="MainImage" disabled type="text" class="form-control" id="horizontal-firstname-input" placeholder="Main Image (URL)">
+                                        <input asp-for="MainImage" disabled type="text" class="form-control"  >
                                         <span asp-validation-for="MainImage" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="HoverImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Hover Image</label>
+                                    <label asp-for="HoverImage"  class="col-sm-3 col-form-label">Hover Image</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="HoverImage" disabled type="text" class="form-control" id="horizontal-firstname-input" placeholder="Hover Image (URL)">
+                                        <input asp-for="HoverImage" disabled type="text" class="form-control"  >
                                         <span asp-validation-for="HoverImage" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="Name" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Name</label>
+                                    <label asp-for="Name"  class="col-sm-3 col-form-label">Name</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Name" type="text" disabled class="form-control" id="horizontal-firstname-input" placeholder="Name">
+                                        <input asp-for="Name" type="text" disabled class="form-control" >
                                         <span asp-validation-for="Name" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="Price" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Price</label>
+                                    <label asp-for="Price"  class="col-sm-3 col-form-label">Price</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Price" type="text" disabled class="form-control" id="horizontal-firstname-input" placeholder="$">
+                                        <input asp-for="Price" type="text" disabled class="form-control"  >
                                         <span asp-validation-for="Price" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="Starts" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Star</label>
+                                    <label asp-for="Starts"  class="col-sm-3 col-form-label">Star</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Starts" disabled type="text" class="form-control" id="horizontal-firstname-input" placeholder="Stars">
+                                        <input asp-for="Starts" disabled type="text" class="form-control"  >
                                         <span asp-validation-for="Starts" class="text-danger"></span>
                                     </div>
                                 </div>
@@ -60,7 +60,9 @@
                                     <div class="col-sm-9">
                                         <div>
                                             <button type="submit" class="btn btn-danger w-md">Delete</button>
-                                            <button type="submit" class="btn btn-primary w-md">Back To List</button>
+                                            <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                                                Back to List
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

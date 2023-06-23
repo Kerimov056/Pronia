@@ -21,7 +21,7 @@
                                         <span asp-validation-for="MainImage" class="text-danger"></span>
                                     </div>
                                 </div>
-                                
+
                                 <div class="row mb-4">
                                     <label asp-for="HoverImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Hover Image</label>
                                     <div class="col-sm-9">
@@ -29,23 +29,23 @@
                                         <span asp-validation-for="HoverImage" class="text-danger"></span>
                                     </div>
                                 </div>
-                                
+
                                 <div class="row mb-4">
                                     <label asp-for="Name" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Name</label>
                                     <div class="col-sm-9">
                                         <input asp-for="Name" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Name">
                                         <span asp-validation-for="Name" class="text-danger"></span>
                                     </div>
-                                </div>    
-                                
+                                </div>
+
                                 <div class="row mb-4">
                                     <label asp-for="Price" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Price</label>
                                     <div class="col-sm-9">
                                         <input asp-for="Price" type="text" class="form-control" id="horizontal-firstname-input" placeholder="$">
                                         <span asp-validation-for="Price" class="text-danger"></span>
                                     </div>
-                                </div>     
-                                
+                                </div>
+
                                 <div class="row mb-4">
                                     <label asp-for="Starts" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Star</label>
                                     <div class="col-sm-9">
@@ -53,12 +53,15 @@
                                         <span asp-validation-for="Starts" class="text-danger"></span>
                                     </div>
                                 </div>
-                                
+
 
                                 <div class="row justify-content-end">
                                     <div class="col-sm-9">
                                         <div>
                                             <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                            <a asp-controller="Admin" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                                                Back to List
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
