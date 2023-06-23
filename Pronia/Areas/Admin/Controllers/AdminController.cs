@@ -36,4 +36,31 @@ public class AdminController : Controller
         }
         return View();
     }
+
+    public IActionResult Edit(int id)
+    {
+        if (id == null || id == 0)
+        {
+            return NotFound();
+        }
+        var product = _context.products.Find(id);
+        if (product is null)
+        {
+            return NotFound();
+        }
+        return View(product);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult Edit(Product product)
+    {
+        if (ModelState.IsValid)
+        {
+            _context.products.Update(product);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View();
+    }
 }
