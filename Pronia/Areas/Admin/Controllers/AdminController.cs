@@ -63,4 +63,27 @@ public class AdminController : Controller
         }
         return View();
     }
+
+    public IActionResult Delete(int id)
+    {
+        var product = _context.products.Find(id);
+        if (product is null)
+        {
+            return NotFound();
+        }
+        return View();
+    }
+    [HttpPost,ActionName("Delete")]
+    [ValidateAntiForgeryToken]
+    public IActionResult DeletePost(int id)
+    {
+        var product = _context.products.Find(id);
+        if (product is null)
+        {
+            return NotFound();
+        }
+        _context.products.Remove(product);
+        _context.SaveChanges();
+        return RedirectToAction("Index");
+    }
 }
