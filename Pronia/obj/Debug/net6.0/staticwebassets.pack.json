@@ -1153,6 +1153,30 @@
       "PackagePath": "staticwebassets\\assetsf\\images\\megamenu-img.png"
     },
     {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\1d213d6c-f8de-4866-8e53-4c1b5d3f1e59WIN_20230512_11_34_06_Pro.jpg",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\1d213d6c-f8de-4866-8e53-4c1b5d3f1e59WIN_20230512_11_34_06_Pro.jpg"
+    },
+    {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\25112640-1b88-4d6d-8335-3b7538428b5eWIN_20230512_11_34_06_Pro.jpg",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\25112640-1b88-4d6d-8335-3b7538428b5eWIN_20230512_11_34_06_Pro.jpg"
+    },
+    {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\Microsoft.AspNetCore.Http.FormFile",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\Microsoft.AspNetCore.Http.FormFile"
+    },
+    {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\bcf5ea23-2a09-4398-a1bc-82017cd948a6image.png",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\bcf5ea23-2a09-4398-a1bc-82017cd948a6image.png"
+    },
+    {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\c765c20e-371b-4499-a265-f82f9c79ddb6WIN_20230512_11_34_06_Pro.jpg",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\c765c20e-371b-4499-a265-f82f9c79ddb6WIN_20230512_11_34_06_Pro.jpg"
+    },
+    {
+      "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\e4a52740-2d89-4a0f-b327-86eb11f2d862WIN_20230512_11_34_06_Pro.jpg",
+      "PackagePath": "staticwebassets\\assetsf\\images\\product\\e4a52740-2d89-4a0f-b327-86eb11f2d862WIN_20230512_11_34_06_Pro.jpg"
+    },
+    {
       "Id": "D:\\work2\\Asp.net MVC\\ProniaUI\\Pronia\\wwwroot\\assetsf\\images\\product\\img-1.png",
       "PackagePath": "staticwebassets\\assetsf\\images\\product\\img-1.png"
     },

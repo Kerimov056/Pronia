@@ -1,4 +1,4 @@
-﻿@model Product
+﻿@model ProductView
 @{
     ViewData["Title"] = "Create";
 }
@@ -13,43 +13,44 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title mb-4" style="color:green;font-size:20px">Create Produscts</h4>
-                            <form method="post">
+                            <form method="post" enctype="multipart/form-data">
                                 <div class="row mb-4">
-                                    <label asp-for="MainImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Main Image</label>
+                                    <label asp-for="MImage" class="col-sm-3 col-form-label">Main Image</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="MainImage" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Main Image (URL)">
-                                        <span asp-validation-for="MainImage" class="text-danger"></span>
+                                        <input asp-for="MImage" type="file" accept="image/*" class="form-control">
+                                        <span asp-validation-for="MImage" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="HoverImage" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Hover Image</label>
+                                    <label asp-for="HImage" class="col-sm-3 col-form-label">Hover Image</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="HoverImage" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Hover Image (URL)">
-                                        <span asp-validation-for="HoverImage" class="text-danger"></span>
+                                        <input asp-for="HImage" type="file" accept="image/*" class="form-control">
+                                        <span asp-validation-for="HImage" class="text-danger"></span>
                                     </div>
                                 </div>
 
+
                                 <div class="row mb-4">
-                                    <label asp-for="Name" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Name</label>
+                                    <label asp-for="Name" class="col-sm-3 col-form-label">Name</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Name" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Name">
+                                        <input asp-for="Name" type="text" class="form-control" placeholder="Name">
                                         <span asp-validation-for="Name" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="Price" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Price</label>
+                                    <label asp-for="Price" class="col-sm-3 col-form-label">Price</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Price" type="text" class="form-control" id="horizontal-firstname-input" placeholder="$">
+                                        <input asp-for="Price" type="text" class="form-control" placeholder="$">
                                         <span asp-validation-for="Price" class="text-danger"></span>
                                     </div>
                                 </div>
 
                                 <div class="row mb-4">
-                                    <label asp-for="Starts" for="horizontal-firstname-input" class="col-sm-3 col-form-label">Star</label>
+                                    <label asp-for="Starts" class="col-sm-3 col-form-label">Star</label>
                                     <div class="col-sm-9">
-                                        <input asp-for="Starts" type="text" class="form-control" id="horizontal-firstname-input" placeholder="Stars">
+                                        <input asp-for="Starts" type="text" class="form-control" placeholder="Stars">
                                         <span asp-validation-for="Starts" class="text-danger"></span>
                                     </div>
                                 </div>
@@ -75,3 +76,10 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScript" />
+
+    }
+}
